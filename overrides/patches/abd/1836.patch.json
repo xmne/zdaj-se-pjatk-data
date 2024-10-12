@@ -1,0 +1,15 @@
+{
+  "id": "1836",
+  "question": "nice",
+  "numberOfComments": 0,
+  "contributor": null,
+  "answers": [
+    {
+      "answer": "test",
+      "correct": true
+    }
+  ],
+  "comments": [],
+  "updatedAt": 1728737108860,
+  "$schema": "../../../schemas/subject-patch.json"
+}
