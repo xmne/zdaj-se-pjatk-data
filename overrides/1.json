@@ -1,0 +1,14 @@
+{
+  "id": "1836",
+  "categoryId": "nice",
+  "collectionId": "nice",
+  "question": "nice",
+  "type": "MultipleChoice",
+  "answers": [
+    {
+      "id": "1",
+      "text": "test",
+      "correct": true
+    }
+  ]
+}
