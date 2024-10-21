@@ -1,0 +1,25 @@
+{
+  "id": 2119,
+  "comments": [],
+  "question": "DOM (Document Object Model) jest :",
+  "subjectId": "tin",
+  "numberOfComments": 0,
+  "answers": [
+    {
+      "correct": false,
+      "text": "Deklaratywnym językiem przekształceń XML opratym na szablonach"
+    },
+    {
+      "correct": false,
+      "text": "Strumieniowym i zdarzeniowym interfejsem obróbki XML"
+    },
+    {
+      "correct": true,
+      "text": "Interfejsem do XML pozwalającym nawigować w drzewie dokumentu"
+    },
+    {
+      "correct": false,
+      "text": "Interfejsem zaliczanym do klasy tzw. Wiązań XML (XML Binding)"
+    }
+  ]
+}
