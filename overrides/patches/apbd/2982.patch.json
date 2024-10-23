@@ -1,0 +1,25 @@
+{
+  "id": 2982,
+  "comments": [],
+  "question": "W poniższym fragmencie kodu:\n \npublic void DatabaseOperation() {\nvar sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings[\"Default\"])//reszta kodu \nvar sqlCommand = new sqlCommand(\"SELECT * FROM EMP\");\nsqlConnection.open();\n \n//...operacje bazodanowe\n \nsqlCommand.Dispose();\nsqlConnection.Dispose();\n}",
+  "subjectId": "apbd",
+  "numberOfComments": 0,
+  "answers": [
+    {
+      "correct": true,
+      "text": "Można by zastosować klauzulę \"try-catch-finally\" w celu bezpiecznego zwolnienia zasobów związanych z połączeniem z bazą danych"
+    },
+    {
+      "correct": false,
+      "text": "<p>ConfigurationManager pobiera ConnectionString z relacyjnej bazy danych</p>"
+    },
+    {
+      "correct": true,
+      "text": "Można by zastosować klauzulę \"using\" w celu bezpiecznego zwolnienia zasobów związanych z z połączeniem z bazą danych"
+    },
+    {
+      "correct": false,
+      "text": "Zaprezentowany jest bezpieczny sposób zwalniania zasobów związanych z połączeniem do bazy danych"
+    }
+  ]
+}
